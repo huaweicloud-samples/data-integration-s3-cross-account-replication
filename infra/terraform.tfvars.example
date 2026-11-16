@@ -1,0 +1,25 @@
+# ============================================================================
+# 示例变量文件
+# 复制此文件为 terraform.tfvars 并填入实际值
+# ============================================================================
+
+# 源区域
+source_region = "cn-north-4"
+
+# 目标区域
+destination_region = "cn-north-4"
+
+# 项目名称
+project_name = "obs-replication"
+
+# 源 OBS 桶名称
+source_bucket_name = "your-source-bucket-name"
+
+# 目标 OBS 桶名称
+destination_bucket_name = "your-destination-bucket-name"
+
+# 复制目标前缀
+replication_prefix = "replicated/"
+
+# 目标账户 Domain ID（跨账号复制时使用）
+target_domain_id = ""
